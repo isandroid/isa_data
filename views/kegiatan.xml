@@ -1,0 +1,302 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.kegiatan_list">
+      <field name="name">Daftar Kegiatan</field>
+      <field name="model">isa_data.kegiatan</field>
+      <field name="arch" type="xml">
+        <tree>
+<field name="tanggal"/>
+          <field name="name"/>
+          <field name="jemaat"/>
+          <field name="tablig_nama"/>
+          <field name="tablig_jumlah"/>
+          <field name="tablig_literatur"/>
+          <field name="tablig_mb"/>
+          <field name="tablig_mb_online"/>
+          <field name="tablig_ans"/>
+          <field name="tablig_khd"/>
+          <field name="tablig_li"/>
+          <field name="tablig_atf"/>
+          <field name="tablig_nai"/>
+          <field name="rabtah_nama"/>
+          <field name="rabtah_jumlah"/>
+          <field name="rabtah_ans"/>
+          <field name="rabtah_khd"/>
+          <field name="rabtah_li"/>
+          <field name="rabtah_atf"/>
+          <field name="rabtah_nai"/>
+          <field name="tarbiyat_poin"/>
+          <field name="tarbiyat_ans"/>
+          <field name="tarbiyat_khd"/>
+          <field name="tarbiyat_li"/>
+          <field name="tarbiyat_atf"/>
+          <field name="tarbiyat_nai"/>
+          <field name="kunjungan_nama"/>
+          <field name="kunjungan_jumlah"/>
+          <field name="talimulquran_poin"/>
+          <field name="talimulquran_ans"/>
+          <field name="talimulquran_khd"/>
+          <field name="talimulquran_li"/>
+          <field name="talimulquran_atf"/>
+          <field name="talimulquran_nai"/>
+          <field name="mutholaah_buku"/>
+          <field name="mutholaah_halaman"/>
+          <field name="keuangan_pembayar"/>
+          <field name="artikel_judul"/>
+          <field name="ibadah_tidak_jamaah"/>
+          <field name="ibadah_tidak_tahajjud"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.kegiatan_form">
+      <field name="name">Formulir Kegiatan</field>
+      <field name="model">isa_data.kegiatan</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Kegiatan" duplicate="0">
+          <sheet>
+            <h1>Formulir Kegiatan</h1>
+            <label for="tanggal"/>
+            <br/>
+            <field name="tanggal"/>
+            <br/><br/>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <br/><br/>
+            <label for="jemaat"/>
+            <br/>
+            <field name="jemaat"/>
+            <br/><br/>
+            <label for="kelompok"/>
+            <br/>
+            <field name="kelompok"/>
+            <br/><br/>
+            <label for="kegiatan_jenis"/>
+            <br/>
+            <field name="kegiatan_jenis"/>
+            <br/><br/>
+            <notebook>
+              <page string='Tablig'>
+                <label for="tablig_nama"/>
+                <br/>
+                <field name="tablig_nama"/>
+                <br/><br/>
+                <label for="tablig_jumlah"/>
+                <br/>
+                <field name="tablig_jumlah"/>
+                <br/><br/>
+                <label for="tablig_poin"/>
+                <br/>
+                <field name="tablig_poin"/>
+                <br/><br/>
+                <label for="tablig_tanggapan"/>
+                <br/>
+                <field name="tablig_tanggapan"/>
+                <br/><br/>
+                <label for="tablig_literatur"/>
+                <br/>
+                <field name="tablig_literatur"/>
+                <br/><br/>
+                <label for="tablig_mb"/>
+                <br/>
+                <field name="tablig_mb"/>
+                <br/><br/>
+                <label for="tablig_mb_online"/>
+                <br/>
+                <field name="tablig_mb_online"/>
+                <br/><br/>
+                <label for="tablig_ans"/>
+                <br/>
+                <field name="tablig_ans"/>
+                <br/><br/>
+                <label for="tablig_khd"/>
+                <br/>
+                <field name="tablig_khd"/>
+                <br/><br/>
+                <label for="tablig_li"/>
+                <br/>
+                <field name="tablig_li"/>
+                <br/><br/>
+                <label for="tablig_atf"/>
+                <br/>
+                <field name="tablig_atf"/>
+                <br/><br/>
+                <label for="tablig_nai"/>
+                <br/>
+                <field name="tablig_nai"/>
+                <br/><br/>
+                <label for="tablig_kisah_baiat"/>
+                <br/>
+                <field name="tablig_kisah_baiat"/>
+                <br/><br/>
+              </page>
+              <page string='Rabtah'>
+                <label for="rabtah_nama"/>
+                <br/>
+                <field name="rabtah_nama"/>
+                <br/><br/>
+                <label for="rabtah_jumlah"/>
+                <br/>
+                <field name="rabtah_jumlah"/>
+                <br/><br/>
+                <label for="rabtah_poin"/>
+                <br/>
+                <field name="rabtah_poin"/>
+                <br/><br/>
+                <label for="rabtah_tanggapan"/>
+                <br/>
+                <field name="rabtah_tanggapan"/>
+                <br/><br/>
+                <label for="rabtah_ans"/>
+                <br/>
+                <field name="rabtah_ans"/>
+                <br/><br/>
+                <label for="rabtah_khd"/>
+                <br/>
+                <field name="rabtah_khd"/>
+                <br/><br/>
+                <label for="rabtah_li"/>
+                <br/>
+                <field name="rabtah_li"/>
+                <br/><br/>
+                <label for="rabtah_atf"/>
+                <br/>
+                <field name="rabtah_atf"/>
+                <br/><br/>
+                <label for="rabtah_nai"/>
+                <br/>
+                <field name="rabtah_nai"/>
+                <br/><br/>
+              </page>
+              <page string='Tarbiyat'>
+                <label for="tarbiyat_poin"/>
+                <br/>
+                <field name="tarbiyat_poin"/>
+                <br/><br/>
+                <label for="tarbiyat_ans"/>
+                <br/>
+                <field name="tarbiyat_ans"/>
+                <br/><br/>
+                <label for="tarbiyat_khd"/>
+                <br/>
+                <field name="tarbiyat_khd"/>
+                <br/><br/>
+                <label for="tarbiyat_li"/>
+                <br/>
+                <field name="tarbiyat_li"/>
+                <br/><br/>
+                <label for="tarbiyat_atf"/>
+                <br/>
+                <field name="tarbiyat_atf"/>
+                <br/><br/>
+                <label for="tarbiyat_nai"/>
+                <br/>
+                <field name="tarbiyat_nai"/>
+                <br/><br/>
+              </page>
+              <page string='Kunjungan'>
+                <label for="kunjungan_jemaat"/>
+                <br/>
+                <field name="kunjungan_jemaat"/>
+                <br/><br/>
+                <label for="kunjungan_nama"/>
+                <br/>
+                <field name="kunjungan_nama"/>
+                <br/><br/>
+                <label for="kunjungan_jumlah"/>
+                <br/>
+                <field name="kunjungan_jumlah"/>
+                <br/><br/>
+                <label for="kunjungan_poin"/>
+                <br/>
+                <field name="kunjungan_poin"/>
+                <br/><br/>
+              </page>
+              <page string="Ta'limul Quran">
+                <label for="talimulquran_poin"/>
+                <br/>
+                <field name="talimulquran_poin"/>
+                <br/><br/>
+                <label for="talimulquran_ans"/>
+                <br/>
+                <field name="talimulquran_ans"/>
+                <br/><br/>
+                <label for="talimulquran_khd"/>
+                <br/>
+                <field name="talimulquran_khd"/>
+                <br/><br/>
+                <label for="talimulquran_li"/>
+                <br/>
+                <field name="talimulquran_li"/>
+                <br/><br/>
+                <label for="talimulquran_atf"/>
+                <br/>
+                <field name="talimulquran_atf"/>
+                <br/><br/>
+                <label for="talimulquran_nai"/>
+                <br/>
+                <field name="talimulquran_nai"/>
+                <br/><br/>
+              </page>
+              <page string="Keuangan">
+                <label for="keuangan_pembayar"/>
+                <br/>
+                <field name="keuangan_pembayar"/>
+                <br/><br/>
+                <label for="keuangan_nominal"/>
+                <br/>
+                <field name="keuangan_nominal"/>
+                <br/><br/>
+              </page>
+              <page string="Pribadi">
+                <label for="mutholaah_buku"/>
+                <br/>
+                <field name="mutholaah_buku"/>
+                <br/><br/>
+                <label for="mutholaah_halaman"/>
+                <br/>
+                <field name="mutholaah_halaman"/>
+                <br/><br/>
+                <label for="artikel_judul"/>
+                <br/>
+                <field name="artikel_judul"/>
+                <br/><br/>
+                <label for="ibadah_tidak_jamaah"/>
+                <br/>
+                <field name="ibadah_tidak_jamaah"/>
+                <br/><br/>
+                <label for="ibadah_tidak_tahajjud"/>
+                <br/>
+                <field name="ibadah_tidak_tahajjud"/>
+                <br/><br/>
+                <label for="ibadah_alquran_surah"/>
+                <br/>
+                <field name="ibadah_alquran_surah"/>
+                <br/><br/>
+                <label for="ibadah_alquran_ayat"/>
+                <br/>
+                <field name="ibadah_alquran_ayat"/>
+                <br/><br/>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.kegiatan_action_window">
+      <field name="name">Jendela Kegiatan</field>
+      <field name="res_model">isa_data.kegiatan</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Kegiatan" id="isa_data.kegiatan_menu" parent="isa_data.isa_data_menu"
+              action="isa_data.kegiatan_action_window"/>
+
+  </data>
+</odoo>

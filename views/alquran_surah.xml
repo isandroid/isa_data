@@ -1,0 +1,29 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="isa_data.alquran_surah_list">
+      <field name="name">Daftar Surah Alquran</field>
+      <field name="model">isa_data.alquran_surah</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="nomor"/>
+          <field name="name"/>
+          <field name="arab"/>
+          <field name="arti"/>
+          <field name="ayat_jumlah"/>
+          <field name="tempat_turun"/>
+          <field name="urutan_pewahyuan"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="isa_data.alquran_surah_action_window">
+      <field name="name">Jendela Surah Alquran</field>
+      <field name="res_model">isa_data.alquran_surah</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Surah Alquran" id="isa_data.alquran_surah_menu" parent="isa_data.pustaka_menu"
+              action="isa_data.alquran_surah_action_window"/>
+
+  </data>
+</odoo>

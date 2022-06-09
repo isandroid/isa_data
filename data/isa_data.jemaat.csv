@@ -1,0 +1,413 @@
+kode,name,nomor
+ABA,Agrabinta,149
+ABN,Ambon,325
+ADG,Andeng,368
+AJI,Arjasari,260
+AKA,Ahuaolano-Konda,399
+ALR,Alor,187
+ASN,Abung Selatan,262
+BAH,Banda Aceh,163
+BAU,Bau-bau,171
+BBS,Brebes,197
+BBU,Bangun Baru,192
+BDA,Budijaya,184
+BDK,Bandung Kulon,2
+BDN,Bendungan,317
+BDR,Bah Damar,307
+BGA,Bangka,156
+BGI,Brastagi,146
+BHI,Bakauheni,209
+BJA,Bunijaya,57
+BJG,Bojong,84
+BJN,Banjaran,90
+BJR,Batujajar,
+BKA,Bulukumba,211
+BKH,Bunikasih,284
+BKI,Bekasi,183
+BKL,Bandung Kidul,397
+BKU,Bengkulu,152
+BKY,Bengkayang,324
+BLA,Balaigana,337
+BLG,Belitung,343
+BLH,Batu Langkah,364
+BLN,Belawan,319
+BLT,Bolangitang,347
+BMA,Burnai Mulya,185
+BMN,Banjarmasin,127
+BNA,Banjarnegara,25
+BNG,Bontang,153
+BNL,Bangil,391
+BNO,Benowo,367
+BNR,Banjar,63
+BOG,Bogor,3
+BPE,Buntu Pane,205
+BPG,Bojongpicung,178
+BPN,Balikpapan,154
+BRS,Baros,129
+BRU,Pulau Buru,182
+BSA,Bojongsirna,251
+BSH,Simpang Kanan,236
+BSI,Banjarsari,61
+BSR,Batusangkar,50
+BTG,Batang,99
+BTH,Bandung Tengah,277
+BTI,Bukit Tinggi,78
+BTM,Batam,226
+BTR,Baturaja,33
+BTU,Bulaktemu,295
+BWN,Bandung Wetan,278
+BYL,Bayung Lincir,334
+BYN,Sambi Elen,219
+CBG,Cibalong,239
+CBK,Cibadak,263
+CBM,Cibeureum,332
+CBU,Cibatu,115
+CCA,Cicakra,130
+CDN,Cidaun,
+CGD,Cigedug,394
+CGS,Cimaragas,195
+CGT,Cigintung,357
+CHG,Ciherang,87
+CKG,Cikedung,246
+CKK,Cikalong Kulon,12
+CKR,Cikembar,265
+CLA,Cicalengka,280
+CLD,Cisalada,18
+CLG,Cileungsi,300
+CLN,Cilegon,44
+CLP,Cilacap,356
+CLS,Cilimus,116
+CLU,Ciledug,60
+CMG,Cimayang,92
+CMI,Cimahi,42
+CMS,Ciamis,40
+CNG,Cibinong,267
+CNM,Ciandam,8
+CNR,Cianjur,7
+CPK,Cikampek,276
+CPY,Ciparay,15
+CRB,Cirebon,14
+CRP,Curup,56
+CSA,Cisarua,113
+CSH,Cisereh,229
+CST,Cisaat,264
+CSU,Cisitu,364
+CTB,Citalahab,66
+CTG,Cibitung Wetan,46
+CTH,Citeguh,105
+CTN,Ciaruteun,91
+CTP,Citeureup,186
+CTU,Cigunungtilu,114
+CYM,Cipeuyeum,296
+DBN,Dolok Kahean,167
+DKA,Datar Kupa,348
+DKU,Duku,82
+DLI,Dili,158
+DPR,Denpasar,71
+GAR,Garut,5
+GBG,Gombong,74
+GBS,Gabus,145
+GCI,Gunung Kerinci,141
+GDK,Gondrong,9
+GDN,Gedangan,218
+GGR,Gegerung,310
+GKL,Gunung Kidul,292
+GMH,Gemuh,242
+GRK,Gresik,102
+GSN,Getasan,293
+GTO,Gorontalo,298
+GWA,Gowa,361
+HNI,Hinai,228
+HQ,Headquarter,
+IHG,Indihiang,176
+IMU,Indramayu,213
+ISA,Ikatan Saudara,69
+JBI,Jambi,294
+JDN,Jalur 8,136
+JKB,Jakarta Barat,200
+JKL,Jengkol,328
+JKN,Jampang Kulon,250
+JKT,Jakarta Timur,199
+JKU,Jakarta Utara,201
+JMR,Jember,126
+JPA,Jayapura,155
+JPO,Jeneponto,283
+JTI,Jati,32
+JWN,Jawaran,316
+KAM,Kampung Anam,266
+KBG,Kedung Banteng,180
+KBH,Kabanjahe,323
+KBK,Bawang,101
+KBN,Kebumen,22
+KDA,Konda,224
+KDI,Kediri,143
+KDM,Kunto Darusalam,370
+KDN,Kadipaten,275
+KHR,Kualuh Hilir,191
+KLG,Kalipucang,157
+KMB,Kotamobagu,28
+KMG,Kemang,139
+KND,Kondoano,313
+KNG,Kota Pinang,190
+KNI,Kendari,161
+KNM,Konarom,76
+KNN,Kuningan,123
+KPG,Kupang,170
+KPI,Kebon Kopi,349
+KPK,Kampung Kramat,322
+KPN,Karangpawitan,94
+KRA,Koronua,314
+KRG,Karawang,80
+KRK,Keruak,179
+KRS,Kersamanah,395
+KSG,Kosinggolan,380
+KSM,Kersamaju,359
+KSR,Kota Sorong,398
+KTH,Karang Tengah,96
+KTM,Kota Merauke,399
+KTN,Kateman,194
+KTT,Kutai Timur,387
+KWU,Kawalu,119
+KYI,Karyasari,188
+LAG,Cikarang Utara,83
+LBG,Lembang,108
+LDI,Ladongi,
+LDO,Landono,241
+LHT,Lahat,31
+LKG,Lengkong,354
+LLG,Lubuk Linggau,43
+LLK,Lolak,175
+LMG,Lampung,39
+LMI,Lamunti,237
+LPH,Lima Puluh,206
+LRI,Lurah Ingu,67
+LSE,Lhok Seumawe,133
+LSG,Leuwisadeng,88
+LSI,Lebaksari,93
+LWM,Leuwimanggu,16
+LWU,Luwu Utara,333
+MAD,Madiun,65
+MBG,Malangbong,252
+MBO,Psr Muara Bungo(351,
+MCE,Mayangcinde,135
+MDA,Madukara,100
+MDN,Medan,36
+MDS,Medas,
+MGA,Menggala,177
+MGG,Magelang,55
+MGS,Malangsari,344
+MGT,Magetan,401
+MJA,Majalaya,111
+MKN,Mandau,162
+MKR,Makassar,53
+MKW,Manokwari,336
+MLA,Majalengka,203
+MLG,Malang,132
+MLK,Melak,345
+MMB,Mook Manaar,393
+MNO,Manado,77
+MNR,Manislor,13
+MNS,Maniis,79
+MPH,Maparah,147
+MRA,Gunung Muria,288
+MRE,Kurik Merauke,193
+MRK,Merak,137
+MRS,Morosi,128
+MSA,Masagena,299
+MSM,Mersam,235
+MTH,Timpeh,196
+MTM,Mataram,54
+MUN,Muna,375
+NBG,Numbing,243
+NGJ,Nganjuk,412
+NGN,Ngaringan,222
+NGR,Nagrak,383
+NLG,Nyalindung,97
+NME,Namorambe,166
+NPH,Ngapaha,330
+NSI,Neglasari,144
+PBG,Pulau Burung,202
+PBN,Penyabangan,272
+PBR,Pamatang Bandar,159
+PCU,Puncu,259
+PDG,Padang,29
+PDN,Pangandaran,134
+PDO,Paradorato,198
+PEN,Pagelaran,204
+PGD,Pagedangan,386
+PGG,Pandeglang,279
+PGI,Pinggirsari,261
+PGN,Paninggilan,37
+PGT,Pagentan,249
+PJA,Penyelimau Jaya,215
+PJP,Paju Epat,381
+PJU,Panjalu,72
+PKA,Palangkaraya,52
+PKB,Pekanbaru,38
+PKH,Pangkoh III,312
+PKI,Pangkalan Krinci,362
+PKN,Plosoklaten,258
+PKT,Purwokerto,21
+PLB,Pangkalan Bun,400
+PLG,Padalarang,231
+PLI,Palaihari,360
+PLM,Polewali Mandar,373
+PLU,Palu,174
+PMG,Palembang,41
+PMK,Pasar Minggu,379
+PNN,Pangalengan,268
+PNR,Pancor,59
+PNW,Penawangan,303
+POA,Poasia,372
+PPA,Perigi,86
+PPK,Pameungpeuk,151
+PPN,Pampangan,51
+PPS,Panunggangan Pusat,274
+PRA,Praya,210
+PRB,Purbalingga,382
+PRE,Pare-Pare,335
+PRI,Parigi,62
+PRJ,Purworejo,388
+PRN,Panyairan,27
+PRO,Purwareja/Klampok,248
+PRW,Perawang,370
+PSK,Parakansalak,64
+PSO,Poso,208
+PSP,Pasir Pangairan,376
+PST,Pasir Semut,122
+PSU,Pringsewu,339
+PSY,Pasang Kayu,411
+PTA,Pematang Jaya,290
+PTD,Pulau Tidung,306
+PTK,Pontianak,125
+PTM,Patimuan,374
+PTN,Patean,270
+PTR,Panunggangan Timur,138
+PUA,Purwokerto Utara,216
+PUN,Pangauban,118
+PWA,Purwakarta,225
+PWN,Panawangan,121
+PWO,Pasar Wajo,286
+PYH,Payakumbuh,350
+PYN,Piyungan,245
+PYP,Paya Pasir,396
+RBH,Rembuah,244
+RGT,Rengat,353
+RJG,Rajeg,385
+RKB,Rangkasbitung,20
+RMA,Rajamandala,112
+RPU,Rawa pitu,301
+RSS,Pulau Rimau,308
+RTP,Ranto Prapat,304
+RUL,Ranca Umbul,253
+SAA,Sukamulya,169
+SAG,Samarang,117
+SBA,Sumbawa,240
+SBG,Sumbang,217
+SBJ,Sungai Merah,329
+SBM,Sukabumi,6
+SBN,Serang,282
+SBU,Sambahule,289
+SBY,Surabaya,24
+SDA,Samarinda,281
+SDG,Sindangbarang,89
+SDH,Sidamulih,287
+SDI,Sadasari,47
+SDK,Sindangkerta,17
+SGB,Sigi Biromaru,346
+SGG,Sungsang,68
+SGI,Singingi,173
+SJA,Singaraja,120
+SKA,Sukapura,75
+SKI,Sukatali,110
+SKN,Susukan,221
+SKT,Singkut,124
+SKU,Sukamaju,107
+SLA,Salatiga,48
+SLG,Sembalun,238
+SLK,Solok,49
+SLM,Sleman,377
+SLO,Solo,189
+SLS,Solok Selatan,327
+SLU,Kota Bangun,140
+SMA,Sea,366
+SMG,Semarang,26
+SMN,Sebamban,172
+SMO,Sidomulyo,142
+SNG,Sanding,326
+SPN,Singaparna,11
+SPT,Sampit,212
+SRA,Serua,273
+SRG,Soreang,226
+SRU,Sungai Rangau,223
+SSA,Sosa,164
+SSD,Siak Sri Indra,371
+SSI,Sukasari,106
+STG,Sintang,309
+SUG,Subang,81
+SWG,Sukawening,98
+SYA,Sekarmulya,233
+SYU,Sidorahayu,234
+TAG,Tulung Agung,257
+TBG,Teluk Betung,70
+TBN,Tambun,85
+TCR,Cecar,131
+TGA,Tinanggea,230
+TGB,Tanjung Balai,34
+TGG,Temanggung,256
+TGL,Tegal,104
+TGT,Tebing Tinggi,35
+THG,Tanah Grogot,311
+THK,Tuah Karya,331
+THS,Tanggul Harapan,358
+TJA,Tejakula,247
+TJG,Tanjung Pinang,232
+TJM,Tanjung Morawa,320
+TKL,Takalar,305
+TKN,Kuantan,363
+TLA,Talaga,58
+TLG,Talang,30
+TLU,Tegal Lumbu,254
+TMN,Taman,389
+TNA,Tonra,168
+TNT,Ternate,302
+TPA,Tanjungpura,165
+TPG,Talang Padang,285
+TPH,Tanjung Medan,207
+TPT,Tapak Tuan,
+TRG,Tangerang,73
+TRK,Tarakan,392
+TRT,Tarans Tiloan,341
+TSM,Tasikmalaya,4
+TSN,Tugu Selatan,255
+TTS,Tete Singi,355
+TWU,Tawangmangu,103
+UGG,Ujung Gading,227
+WAH,Warga Asih,340
+WJO,Wajo,214
+WKA,Warungkiara,95
+WKG,Waringin Kurung(269,
+WLN,Waluran,148
+WLS,Wadas Lintang,315
+WMA,Warung Mangga,297
+WNA,Wanaraja,160
+WNI,Wonosari,318
+WNR,Wonoroto,352
+WNS,Wanasigra,19
+WSI,Waisili,391
+WSO,Wonosobo,181
+WSW,Wanasigra Wetan(342,
+WTI,Bawang Utara,338
+YGY,Yogyakarta,23
+JKP,Jakarta Pusat,1
+KBY,Kebayoran,10
+LTA,Lenteng Agung,45
+DPK,Depok,150
+KBU,Kubu,413
+BGM,Bagik Manis,414
+JGB,Jagebob,415
+BER,Berau,406
+BLL,Boyolali,407
+KNT,Keniten,405
+MKS,Manokwari Selatan,408
+CSG,Ciseeng,409

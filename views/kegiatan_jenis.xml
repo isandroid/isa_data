@@ -1,0 +1,42 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.kegiatan_jenis_list">
+      <field name="name">Daftar Jenis Kegiatan</field>
+      <field name="model">isa_data.kegiatan_jenis</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.kegiatan_jenis_form">
+      <field name="name">Formulir Jenis Kegiatan</field>
+      <field name="model">isa_data.kegiatan_jenis</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Jenis Kegiatan" duplicate="0">
+          <sheet>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <!-- <br/><br/> -->
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.kegiatan_jenis_action_window">
+      <field name="name">Jendela Jenis Kegiatan</field>
+      <field name="res_model">isa_data.kegiatan_jenis</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Jenis Kegiatan" id="isa_data.kegiatan_jenis_menu" parent="isa_data.pustaka_menu"
+              action="isa_data.kegiatan_jenis_action_window"/>
+
+  </data>
+</odoo>

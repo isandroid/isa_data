@@ -1,0 +1,47 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.jemaat_kelompok_list">
+      <field name="name">Daftar Kelompok Jemaat</field>
+      <field name="model">isa_data.jemaat_kelompok</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="jemaat"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.jemaat_kelompok_form">
+      <field name="name">Formulir Kelompok Jemaat</field>
+      <field name="model">isa_data.jemaat_kelompok</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Kelompok Jemaat" duplicate="0">
+          <sheet>
+            <h1>Formulir Kelompok Jemaat</h1>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <br/><br/>
+            <label for="jemaat"/>
+            <br/>
+            <field name="jemaat"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.jemaat_kelompok_action_window">
+      <field name="name">Jendela Kelompok Jemaat</field>
+      <field name="res_model">isa_data.jemaat_kelompok</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Kelompok" id="isa_data.jemaat_kelompok_menu" parent="isa_data.pustaka_menu"
+              action="isa_data.jemaat_kelompok_action_window"/>
+
+  </data>
+</odoo>
