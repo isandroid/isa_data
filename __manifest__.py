@@ -28,6 +28,8 @@
         'views/kegiatan_jenis.xml',
         'views/alquran_surah.xml',
         'views/kegiatan.xml',
+        'views/keuangan_akun.xml',
+        'views/keuangan_dkm.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

@@ -3,5 +3,8 @@ access_isa_data_jemaat,isa_data.jemaat,model_isa_data_jemaat,base.group_user,1,1
 access_isa_data_jemaat_kelompok,isa_data.jemaat_kelompok,model_isa_data_jemaat_kelompok,base.group_user,1,1,1,1
 access_isa_data_kegiatan_jenis,isa_data.kegiatan_jenis,model_isa_data_kegiatan_jenis,base.group_user,1,1,1,1
 access_isa_data_alquran_surah,isa_data.alquran_surah,model_isa_data_alquran_surah,base.group_user,1,1,1,1
+access_isa_data_keuangan_akun,isa_data.keuangan_akun,model_isa_data_keuangan_akun,base.group_user,1,1,1,1
 
 access_isa_data_kegiatan,isa_data.kegiatan,model_isa_data_kegiatan,base.group_user,1,1,1,1
+
+access_isa_data_keuangan_dkm,isa_data.keuangan_dkm,model_isa_data_keuangan_dkm,base.group_user,1,1,1,1

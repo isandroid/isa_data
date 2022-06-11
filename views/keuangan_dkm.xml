@@ -1,0 +1,88 @@
+
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.keuangan_dkm_list">
+      <field name="name">Daftar DKM</field>
+      <field name="model">isa_data.keuangan_dkm</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="tempat_asal"/>
+          <field name="tempat_tujuan"/>
+          <field name="tanggal_berangkat"/>
+          <field name="tanggal_kembali"/>
+          <field name="km_awal"/>
+          <field name="km_akhir"/>
+          <field name="keuangan_biaya"/>
+          <field name="name"/>
+          <field name="keuangan_akun"/>
+          <field name="lampiran"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.keuangan_dkm_form">
+      <field name="name">Formulir DKM</field>
+      <field name="model">isa_data.keuangan_dkm</field>
+      <field name="arch" type="xml">
+        <form string="Formulir DKM" duplicate="0">
+          <sheet>
+            <label for="tempat_asal"/>
+            <br/>
+            <field name="tempat_asal"/>
+            <br/><br/>
+            <label for="tempat_tujuan"/>
+            <br/>
+            <field name="tempat_tujuan"/>
+            <br/><br/>
+            <label for="tanggal_berangkat"/>
+            <br/>
+            <field name="tanggal_berangkat"/>
+            <br/><br/>
+            <label for="tanggal_kembali"/>
+            <br/>
+            <field name="tanggal_kembali"/>
+            <br/><br/>
+            <label for="km_awal"/>
+            <br/>
+            <field name="km_awal"/>
+            <br/><br/>
+            <label for="km_akhir"/>
+            <br/>
+            <field name="km_akhir"/>
+            <br/><br/>
+            <label for="keuangan_biaya"/>
+            <br/>
+            <field name="keuangan_biaya"/>
+            <br/><br/>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <br/><br/>
+            <label for="keuangan_akun"/>
+            <br/>
+            <field name="keuangan_akun"/>
+            <br/><br/>
+            <label for="lampiran"/>
+            <br/>
+            <field name="lampiran"/>
+            <br/><br/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.keuangan_dkm_action_window">
+      <field name="name">Jendela DKM</field>
+      <field name="res_model">isa_data.keuangan_dkm</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="DKM" id="isa_data.keuangan_dkm_menu" parent="isa_data.isa_data_menu"
+              action="isa_data.keuangan_dkm_action_window"/>
+
+  </data>
+</odoo>
