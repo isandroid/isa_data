@@ -13,7 +13,7 @@ class KeuanganDkm(models.Model):
     km_awal = fields.Float(string='KM Awal')
     km_akhir = fields.Float(string='KM Akhir')
     keuangan_biaya = fields.Integer(string='Jumlah (Rp)')
-    name = fields.Char(string='Nama Kegiatan', required=True)
+    name = fields.Many2one('isa_data.kegiatan', string='Nama Kegiatan', required=True)
     keuangan_akun = fields.Many2one('isa_data.keuangan_akun', string='POS Pengeluaran')
     lampiran = fields.Binary(string='Struk/Kwitansi', store=True, attachment=False)
 
