@@ -21,7 +21,7 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'data/isa_data.jemaat.csv',
+        # 'data/isa_data.jemaat.csv',
         'views/views.xml',
         'views/jemaat.xml',
         'views/jemaat_kelompok.xml',
