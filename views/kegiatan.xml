@@ -7,9 +7,11 @@
       <field name="model">isa_data.kegiatan</field>
       <field name="arch" type="xml">
         <tree>
-<field name="tanggal"/>
+          <field name="tanggal"/>
           <field name="name"/>
           <field name="jemaat"/>
+          <field name="kelompok"/>
+          <field name="kegiatan_jenis"/>
           <field name="tablig_nama"/>
           <field name="tablig_jumlah"/>
           <field name="tablig_literatur"/>
