@@ -42,7 +42,7 @@
 
     <!-- Top menu item -->
 
-    <menuitem name="Isa Data" id="isa_data.isa_data_menu"/>
+    <menuitem name="Data Isa" id="isa_data.isa_data_menu"/>
 
     <!-- menu categories -->
 

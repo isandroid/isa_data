@@ -59,6 +59,6 @@ class kegiatan(models.Model):
     keuangan_nominal = fields.Integer(string='Jumlah Candah dalam Rupiah')
     artikel_judul = fields.Char(string='Judul Artikel')
     ibadah_tidak_jamaah = fields.Integer(string='Berapa Kali Tidak Shalat Berjamaah')
-    ibadah_tidak_tahajjud = fields.Integer(string='Berapa Kali Tidak Shalat Berjamaah')
+    ibadah_tidak_tahajjud = fields.Integer(string='Berapa Kali Tidak Tahajjud')
     ibadah_alquran_surah = fields.Many2one('isa_data.alquran_surah', string='Surah yang Dibaca')
     ibadah_alquran_ayat = fields.Integer(string='Ayat Berapa')
