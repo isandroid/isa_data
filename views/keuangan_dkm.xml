@@ -14,6 +14,7 @@
           <field name="tanggal_kembali"/>
           <field name="km_awal"/>
           <field name="km_akhir"/>
+          <field name="jumlah_km"/>
           <field name="keuangan_biaya"/>
           <field name="name"/>
           <field name="keuangan_akun"/>
@@ -51,6 +52,10 @@
             <label for="km_akhir"/>
             <br/>
             <field name="km_akhir"/>
+            <br/><br/>
+            <label for="jumlah_km"/>
+            <br/>
+            <field name="jumlah_km"/>
             <br/><br/>
             <label for="keuangan_biaya"/>
             <br/>
