@@ -30,6 +30,7 @@
         'views/kegiatan.xml',
         'views/keuangan_akun.xml',
         'views/keuangan_dkm.xml',
+        'views/keuangan_bensin.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

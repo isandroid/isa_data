@@ -1,0 +1,47 @@
+
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.keuangan_bensin_list">
+      <field name="name">Daftar Harga Bensin</field>
+      <field name="model">isa_data.keuangan_bensin</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="harga"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.keuangan_bensin_form">
+      <field name="name">Formulir Harga Bensin</field>
+      <field name="model">isa_data.keuangan_bensin</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Harga Bensin" duplicate="0">
+          <sheet>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <br/><br/>
+            <label for="harga"/>
+            <br/>
+            <field name="harga"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.keuangan_bensin_action_window">
+      <field name="name">Jendela Harga Bensin</field>
+      <field name="res_model">isa_data.keuangan_bensin</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Harga Bensin" id="isa_data.keuangan_bensin_menu" parent="isa_data.pustaka_menu"
+              action="isa_data.keuangan_bensin_action_window"/>
+
+  </data>
+</odoo>

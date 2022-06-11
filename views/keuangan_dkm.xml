@@ -15,6 +15,10 @@
           <field name="km_awal"/>
           <field name="km_akhir"/>
           <field name="jumlah_km"/>
+          <field name="klaim_bensin"/>
+          <field name="bensin_jenis"/>
+          <field name="bensin_harga"/>
+          <field name="klaim_uang"/>
           <field name="keuangan_biaya"/>
           <field name="name"/>
           <field name="keuangan_akun"/>
@@ -56,6 +60,22 @@
             <label for="jumlah_km"/>
             <br/>
             <field name="jumlah_km"/>
+            <br/><br/>
+            <label for="klaim_bensin"/>
+            <br/>
+            <field name="klaim_bensin"/>
+            <br/><br/>
+            <label for="bensin_jenis"/>
+            <br/>
+            <field name="bensin_jenis"/>
+            <br/><br/>
+            <label for="bensin_harga"/>
+            <br/>
+            <field name="bensin_harga"/>
+            <br/><br/>            
+            <label for="klaim_uang"/>
+            <br/>
+            <field name="klaim_uang"/>
             <br/><br/>
             <label for="keuangan_biaya"/>
             <br/>

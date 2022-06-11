@@ -13,6 +13,10 @@ class KeuanganDkm(models.Model):
     km_awal = fields.Float(string='KM Awal')
     km_akhir = fields.Float(string='KM Akhir')
     jumlah_km = fields.Float(string='Jumlah KM', compute='_compute_jarak_km')
+    klaim_bensin = fields.Float(string='Klaim Bensin (Liter)', compute='_compute_klaim_bensin')
+    bensin_jenis = fields.Many2one('isa_data.keuangan_bensin', string='Jenis Bensin')
+    bensin_harga = fields.Float(related='bensin_jenis.harga', string='Harga Bensin')
+    klaim_uang = fields.Float(string='Klaim DKM (Rp)', compute='_compute_klaim_uang')
     keuangan_biaya = fields.Integer(string='Jumlah (Rp)')
     name = fields.Many2one('isa_data.kegiatan', string='Nama Kegiatan', required=True)
     keuangan_akun = fields.Many2one('isa_data.keuangan_akun', string='POS Pengeluaran')
@@ -28,3 +32,14 @@ class KeuanganDkm(models.Model):
     def _compute_jarak_km(self):
         for record in self:
             record.jumlah_km = float(record.km_akhir) - float(record.km_awal)
+
+    def _compute_klaim_bensin(self):
+        for record in self:
+            record.klaim_bensin = float(record.jumlah_km) / 8
+
+    def _compute_klaim_uang(self):
+        for record in self:
+            if record.bensin_jenis:
+                record.klaim_uang = record.klaim_bensin * record.bensin_harga
+            else:
+                record.klaim_uang = False
