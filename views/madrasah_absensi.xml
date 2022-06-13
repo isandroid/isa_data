@@ -1,0 +1,57 @@
+
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.madrasah_absensi_list">
+      <field name="name">Daftar Absensi Madrasah</field>
+      <field name="model">isa_data.madrasah_absensi</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="tanggal"/>
+          <field name="murid_name"/>
+          <field name="kehadiran"/>
+          <field name="keterangan"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.madrasah_absensi_form">
+      <field name="name">Formulir Absensi Madrasah</field>
+      <field name="model">isa_data.madrasah_absensi</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Absensi Madrasah" duplicate="0">
+          <sheet>
+            <label for="tanggal"/>
+            <br/>
+            <field name="tanggal"/>
+            <br/><br/>
+            <label for="murid_name"/>
+            <br/>
+            <field name="murid_name"/>
+            <br/><br/>
+            <label for="kehadiran"/>
+            <br/>
+            <field name="kehadiran"/>
+            <br/><br/>
+            <label for="keterangan"/>
+            <br/>
+            <field name="keterangan"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.madrasah_absensi_action_window">
+      <field name="name">Jendela Absensi Madrasah</field>
+      <field name="res_model">isa_data.madrasah_absensi</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Absensi" id="isa_data.madrasah_absensi_menu" parent="isa_data.madrasah_menu"
+              action="isa_data.madrasah_absensi_action_window"/>
+
+  </data>
+</odoo>

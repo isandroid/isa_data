@@ -9,6 +9,8 @@ from . import alquran_surah
 from . import keuangan_akun
 from . import keuangan_dkm
 from . import keuangan_bensin
+from . import madrasah_murid
+from . import madrasah_absensi
 
 # --- Utama ---
 

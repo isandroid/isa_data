@@ -40,7 +40,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Harga Bensin" id="isa_data.keuangan_bensin_menu" parent="isa_data.pustaka_menu"
+    <menuitem name="Harga Bensin" id="isa_data.keuangan_bensin_menu" parent="isa_data.keuangan_menu"
               action="isa_data.keuangan_bensin_action_window"/>
 
   </data>

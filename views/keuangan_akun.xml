@@ -45,7 +45,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Akun Keuangan" id="isa_data.keuangan_akun_menu" parent="isa_data.pustaka_menu"
+    <menuitem name="Akun Keuangan" id="isa_data.keuangan_akun_menu" parent="isa_data.keuangan_menu"
               action="isa_data.keuangan_akun_action_window"/>
 
   </data>

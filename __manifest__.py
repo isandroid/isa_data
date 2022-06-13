@@ -31,6 +31,8 @@
         'views/keuangan_akun.xml',
         'views/keuangan_dkm.xml',
         'views/keuangan_bensin.xml',
+        'views/madrasah_murid.xml',
+        'views/madrasah_absensi.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

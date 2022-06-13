@@ -106,7 +106,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="DKM" id="isa_data.keuangan_dkm_menu" parent="isa_data.isa_data_menu"
+    <menuitem name="DKM" id="isa_data.keuangan_dkm_menu" parent="isa_data.keuangan_menu"
               action="isa_data.keuangan_dkm_action_window"/>
 
   </data>

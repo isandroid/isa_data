@@ -40,7 +40,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Kelompok" id="isa_data.jemaat_kelompok_menu" parent="isa_data.pustaka_menu"
+    <menuitem name="Kelompok" id="isa_data.jemaat_kelompok_menu" parent="isa_data.mubalig_menu"
               action="isa_data.jemaat_kelompok_action_window"/>
 
   </data>

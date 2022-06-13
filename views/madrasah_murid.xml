@@ -1,0 +1,56 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.madrasah_murid_list">
+      <field name="name">Daftar Murid Madrasah</field>
+      <field name="model">isa_data.madrasah_murid</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="kelas"/>
+          <field name="tanggal_lahir"/>
+          <field name="keterangan"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.madrasah_murid_form">
+      <field name="name">Formulir Murid Madrasah</field>
+      <field name="model">isa_data.madrasah_murid</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Murid Madrasah" duplicate="0">
+          <sheet>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <br/><br/>
+            <label for="kelas"/>
+            <br/>
+            <field name="kelas"/>
+            <br/><br/>
+            <label for="tanggal_lahir"/>
+            <br/>
+            <field name="tanggal_lahir"/>
+            <br/><br/>
+            <label for="keterangan"/>
+            <br/>
+            <field name="keterangan"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.madrasah_murid_action_window">
+      <field name="name">Jendela Murid Madrasah</field>
+      <field name="res_model">isa_data.madrasah_murid</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Murid" id="isa_data.madrasah_murid_menu" parent="isa_data.madrasah_menu"
+              action="isa_data.madrasah_murid_action_window"/>
+
+  </data>
+</odoo>

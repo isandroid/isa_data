@@ -2,7 +2,6 @@
 
 # from odoo import models, fields, api
 
-
 # class isa_data(models.Model):
 #     _name = 'isa_data.isa_data'
 #     _description = 'isa_data.isa_data'

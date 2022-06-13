@@ -35,7 +35,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Jenis Kegiatan" id="isa_data.kegiatan_jenis_menu" parent="isa_data.pustaka_menu"
+    <menuitem name="Jenis Kegiatan" id="isa_data.kegiatan_jenis_menu" parent="isa_data.mubalig_menu"
               action="isa_data.kegiatan_jenis_action_window"/>
 
   </data>
