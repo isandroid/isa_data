@@ -42,6 +42,21 @@
       </field>
     </record>
 
+    <!-- Pencarian -->
+
+    <record id="view_madrasah_absensi_search" model="ir.ui.view">
+      <field name="name">Pencarian Absensi Madrasah</field>
+      <field name="model">isa_data.madrasah_absensi</field>
+      <field name="arch" type="xml">
+        <search string="Cari DKM">
+          <field name="tanggal"/>
+          <field name="murid_name"/>
+          <field name="kehadiran"/>
+          <field name="keterangan"/>
+        </search>
+      </field>
+    </record>
+
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="isa_data.madrasah_absensi_action_window">

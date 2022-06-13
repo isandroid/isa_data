@@ -37,6 +37,20 @@
       </field>
     </record>
 
+    <!-- Pencarian -->
+
+    <record id="view_keuangan_akun_search" model="ir.ui.view">
+      <field name="name">Pencarian Akun Keuangan</field>
+      <field name="model">isa_data.keuangan_akun</field>
+      <field name="arch" type="xml">
+        <search string="Cari Akun Keuangan">
+          <field name="name"/>
+          <field name="kode"/>
+          <field name="jenis"/>
+        </search>
+      </field>
+    </record>
+
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="isa_data.keuangan_akun_action_window">

@@ -289,6 +289,60 @@
       </field>
     </record>
 
+    <!-- Pencarian -->
+
+
+    <record id="view_kegiatan_search" model="ir.ui.view">
+      <field name="name">Pencarian Kegiatan</field>
+      <field name="model">isa_data.kegiatan</field>
+      <field name="arch" type="xml">
+        <search string="Cari Jemaat">
+          <field name="tanggal"/>
+          <field name="name"/>
+          <field name="jemaat"/>
+          <field name="kelompok"/>
+          <field name="kegiatan_jenis"/>
+          <field name="tablig_nama"/>
+          <field name="tablig_jumlah"/>
+          <field name="tablig_literatur"/>
+          <field name="tablig_mb"/>
+          <field name="tablig_mb_online"/>
+          <field name="tablig_ans"/>
+          <field name="tablig_khd"/>
+          <field name="tablig_li"/>
+          <field name="tablig_atf"/>
+          <field name="tablig_nai"/>
+          <field name="rabtah_nama"/>
+          <field name="rabtah_jumlah"/>
+          <field name="rabtah_ans"/>
+          <field name="rabtah_khd"/>
+          <field name="rabtah_li"/>
+          <field name="rabtah_atf"/>
+          <field name="rabtah_nai"/>
+          <field name="tarbiyat_poin"/>
+          <field name="tarbiyat_ans"/>
+          <field name="tarbiyat_khd"/>
+          <field name="tarbiyat_li"/>
+          <field name="tarbiyat_atf"/>
+          <field name="tarbiyat_nai"/>
+          <field name="kunjungan_nama"/>
+          <field name="kunjungan_jumlah"/>
+          <field name="talimulquran_poin"/>
+          <field name="talimulquran_ans"/>
+          <field name="talimulquran_khd"/>
+          <field name="talimulquran_li"/>
+          <field name="talimulquran_atf"/>
+          <field name="talimulquran_nai"/>
+          <field name="mutholaah_buku"/>
+          <field name="mutholaah_halaman"/>
+          <field name="keuangan_pembayar"/>
+          <field name="artikel_judul"/>
+          <field name="ibadah_tidak_jamaah"/>
+          <field name="ibadah_tidak_tahajjud"/>
+        </search>
+      </field>
+    </record>
+
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="isa_data.kegiatan_action_window">

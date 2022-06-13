@@ -41,6 +41,21 @@
       </field>
     </record>
 
+    <!-- Pencarian -->
+
+    <record id="view_madrasah_murid_search" model="ir.ui.view">
+      <field name="name">Pencarian Murid Madrasah</field>
+      <field name="model">isa_data.madrasah_murid</field>
+      <field name="arch" type="xml">
+        <search string="Cari Murid Madrasah">
+          <field name="name"/>
+          <field name="kelas"/>
+          <field name="tanggal_lahir"/>
+          <field name="keterangan"/>
+        </search>
+      </field>
+    </record>
+
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="isa_data.madrasah_murid_action_window">

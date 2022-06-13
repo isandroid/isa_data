@@ -36,6 +36,20 @@
       </field>
     </record>
 
+    <!-- Pencarian -->
+
+    <record id="view_jemaat_search" model="ir.ui.view">
+      <field name="name">Pencarian Jemaat</field>
+      <field name="model">isa_data.jemaat</field>
+      <field name="arch" type="xml">
+        <search string="Cari Jemaat">
+          <field name="name"></field>
+          <field name="kode"></field>
+          <field name="nomor"></field>
+        </search>
+      </field>
+    </record>
+
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="isa_data.jemaat_action_window">

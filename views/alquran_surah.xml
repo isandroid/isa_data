@@ -22,6 +22,24 @@
       <field name="view_mode">tree,form</field>
     </record>
 
+    <!-- Pencarian -->
+
+    <record id="view_alquran_surah_search" model="ir.ui.view">
+      <field name="name">Pencarian Surah Alquran</field>
+      <field name="model">isa_data.alquran_surah</field>
+      <field name="arch" type="xml">
+        <search string="Cari Jemaat">
+          <field name="nomor"/>
+          <field name="name"/>
+          <field name="arab"/>
+          <field name="arti"/>
+          <field name="ayat_jumlah"/>
+          <field name="tempat_turun"/>
+          <field name="urutan_pewahyuan"/>
+        </search>
+      </field>
+    </record>
+
     <menuitem name="Surah Alquran" id="isa_data.alquran_surah_menu" parent="isa_data.pustaka_menu"
               action="isa_data.alquran_surah_action_window"/>
 

@@ -7,7 +7,7 @@ class MadrasahAbsensi(models.Model):
     _description = 'Absensi Madrasah'
 
     tanggal = fields.Date('Tanggal Absensi', required=True)
-    murid_name = fields.Many2one('isa_data.madrasah_absensi', required=True)
+    murid_name = fields.Many2one('isa_data.madrasah_murid', required=True)
     kehadiran = fields.Selection([
     	('hadir', 'Hadir'),
     	('sakit', 'Sakit'),
