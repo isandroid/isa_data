@@ -41,7 +41,7 @@
     </record>
 
     <menuitem name="Harga Bensin" id="isa_data.keuangan_bensin_menu" parent="isa_data.keuangan_menu"
-              action="isa_data.keuangan_bensin_action_window"/>
+              action="isa_data.keuangan_bensin_action_window" sequence="143"/>
 
   </data>
 </odoo>

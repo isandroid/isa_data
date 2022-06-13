@@ -352,7 +352,7 @@
     </record>
 
     <menuitem name="Kegiatan" id="isa_data.kegiatan_menu" parent="isa_data.mubalig_menu"
-              action="isa_data.kegiatan_action_window"/>
+              action="isa_data.kegiatan_action_window" sequence="131"/>
 
   </data>
 </odoo>

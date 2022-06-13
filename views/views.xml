@@ -69,14 +69,14 @@
 
     <!-- Top menu item -->
 
-    <menuitem name="Data Isa" id="isa_data.isa_data_menu"/>
+    <menuitem name="Data Isa" id="isa_data.isa_data_menu" sequence="100"/>
 
     <!-- menu categories -->
 
-    <menuitem name="Pustaka" id="isa_data.pustaka_menu" parent="isa_data.isa_data_menu"/>
-    <menuitem name="Madrasah" id="isa_data.madrasah_menu" parent="isa_data.isa_data_menu"/>
-    <menuitem name="Mubalig" id="isa_data.mubalig_menu" parent="isa_data.isa_data_menu"/>
-    <menuitem name="Keuangan" id="isa_data.keuangan_menu" parent="isa_data.isa_data_menu"/>
+    <menuitem name="Pustaka" id="isa_data.pustaka_menu" parent="isa_data.isa_data_menu" sequence="110"/>
+    <menuitem name="Madrasah" id="isa_data.madrasah_menu" parent="isa_data.isa_data_menu" sequence="120"/>
+    <menuitem name="Mubalig" id="isa_data.mubalig_menu" parent="isa_data.isa_data_menu" sequence="130"/>
+    <menuitem name="Keuangan" id="isa_data.keuangan_menu" parent="isa_data.isa_data_menu" sequence="140"/>
 
     <!-- <menuitem name="Menu 2" id="isa_data.menu_2" parent="isa_data.menu_root"/> -->
 

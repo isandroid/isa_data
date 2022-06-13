@@ -41,7 +41,7 @@
     </record>
 
     <menuitem name="Kelompok" id="isa_data.jemaat_kelompok_menu" parent="isa_data.mubalig_menu"
-              action="isa_data.jemaat_kelompok_action_window"/>
+              action="isa_data.jemaat_kelompok_action_window" sequence="132"/>
 
   </data>
 </odoo>

@@ -36,7 +36,7 @@
     </record>
 
     <menuitem name="Jenis Kegiatan" id="isa_data.kegiatan_jenis_menu" parent="isa_data.mubalig_menu"
-              action="isa_data.kegiatan_jenis_action_window"/>
+              action="isa_data.kegiatan_jenis_action_window" sequence="133"/>
 
   </data>
 </odoo>

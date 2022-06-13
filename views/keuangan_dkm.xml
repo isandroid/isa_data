@@ -133,7 +133,7 @@
     </record>
 
     <menuitem name="DKM" id="isa_data.keuangan_dkm_menu" parent="isa_data.keuangan_menu"
-              action="isa_data.keuangan_dkm_action_window"/>
+              action="isa_data.keuangan_dkm_action_window" sequence="141"/>
 
   </data>
 </odoo>

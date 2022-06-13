@@ -41,7 +41,7 @@
     </record>
 
     <menuitem name="Surah Alquran" id="isa_data.alquran_surah_menu" parent="isa_data.pustaka_menu"
-              action="isa_data.alquran_surah_action_window"/>
+              action="isa_data.alquran_surah_action_window" sequence="112" />
 
   </data>
 </odoo>
