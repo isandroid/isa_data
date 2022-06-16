@@ -36,6 +36,8 @@
         'views/madrasah_absensi.xml',
         'views/madrasah_kurikulum.xml',
         'views/madrasah_kbm.xml',
+        'views/homeopati_remedi.xml',
+        'views/homeopati_resep.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

@@ -53,7 +53,7 @@
     </record>
 
     <menuitem name="Pelajaran" id="isa_data.madrasah_pelajaran_menu" parent="isa_data.madrasah_menu"
-              action="isa_data.madrasah_pelajaran_action_window" sequence="125"/>
+              action="isa_data.madrasah_pelajaran_action_window" sequence="129"/>
 
   </data>
 </odoo>

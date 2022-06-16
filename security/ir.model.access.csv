@@ -17,3 +17,6 @@ access_isa_data_madrasah_absensi,isa_data.madrasah_absensi,model_isa_data_madras
 access_isa_data_madrasah_kurikulum,isa_data.madrasah_kurikulum,model_isa_data_madrasah_kurikulum,base.group_user,1,1,1,1
 
 access_isa_data_madrasah_kbm,isa_data.madrasah_kbm,model_isa_data_madrasah_kbm,base.group_user,1,1,1,1
+
+access_isa_data_homeopati_remedi,isa_data.homeopati_remedi,model_isa_data_homeopati_remedi,base.group_user,1,1,1,1
+access_isa_data_homeopati_resep,isa_data.homeopati_resep,model_isa_data_homeopati_resep,base.group_user,1,1,1,1

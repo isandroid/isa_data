@@ -1,0 +1,71 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_resep_list">
+      <field name="name">Daftar Resep Homeopati</field>
+      <field name="model">isa_data.homeopati_resep</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="penyakit"/>
+          <field name="remedi"/>
+          <field name="potensi"/>
+          <field name="keterangan"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.homeopati_resep_form">
+      <field name="name">Formulir Resep Homeopati</field>
+      <field name="model">isa_data.homeopati_resep</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Remedi" duplicate="0">
+          <sheet>
+            <label for="penyakit"/>
+            <br/>
+            <field name="penyakit"/>
+            <br/><br/>
+            <label for="remedi"/>
+            <br/>
+            <field name="remedi"/>
+            <br/><br/>
+            <label for="potensi"/>
+            <br/>
+            <field name="potensi"/>
+            <br/><br/>
+            <label for="keterangan"/>
+            <br/>
+            <field name="keterangan"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Pencarian -->
+
+    <record id="view_homeopati_resep_search" model="ir.ui.view">
+      <field name="name">Pencarian Resep Homeopati</field>
+      <field name="model">isa_data.homeopati_resep</field>
+      <field name="arch" type="xml">
+        <search string="Cari Remedi">
+          <field name="penyakit"/>
+          <field name="remedi"/>
+          <field name="potensi"/>
+          <field name="keterangan"/>
+        </search>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.homeopati_resep_action_window">
+      <field name="name">Jendela Remedi Homeopati</field>
+      <field name="res_model">isa_data.homeopati_resep</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Resep" id="isa_data.homeopati_resep_menu" parent="isa_data.homeopati_menu"
+              action="isa_data.homeopati_resep_action_window" sequence="151"/>
+
+  </data>
+</odoo>

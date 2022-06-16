@@ -1,0 +1,65 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_remedi_list">
+      <field name="name">Daftar Remedi</field>
+      <field name="model">isa_data.homeopati_remedi</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="remedi"/>
+          <field name="potensi"/>
+          <field name="tautan"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.homeopati_remedi_form">
+      <field name="name">Formulir Remedi</field>
+      <field name="model">isa_data.homeopati_remedi</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Remedi" duplicate="0">
+          <sheet>
+            <label for="remedi"/>
+            <br/>
+            <field name="remedi"/>
+            <br/><br/>
+            <label for="potensi"/>
+            <br/>
+            <field name="potensi"/>
+            <br/><br/>
+            <label for="tautan"/>
+            <br/>
+            <field name="tautan"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Pencarian -->
+
+    <record id="view_homeopati_remedi_search" model="ir.ui.view">
+      <field name="name">Pencarian Remedi</field>
+      <field name="model">isa_data.homeopati_remedi</field>
+      <field name="arch" type="xml">
+        <search string="Cari Remedi">
+          <field name="remedi"/>
+          <field name="potensi"/>
+          <field name="tautan"/>
+        </search>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.homeopati_remedi_action_window">
+      <field name="name">Jendela Remedi</field>
+      <field name="res_model">isa_data.homeopati_remedi</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Remedi" id="isa_data.homeopati_remedi_menu" parent="isa_data.homeopati_menu"
+              action="isa_data.homeopati_remedi_action_window" sequence="159"/>
+
+  </data>
+</odoo>
