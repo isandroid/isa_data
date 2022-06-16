@@ -13,6 +13,7 @@ from . import madrasah_murid
 from . import madrasah_absensi
 from . import madrasah_kurikulum
 from . import madrasah_kbm
+from . import madrasah_pelajaran
 
 # --- Utama ---
 

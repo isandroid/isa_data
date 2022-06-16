@@ -8,7 +8,8 @@ class MadrasahKbm(models.Model):
 
     tanggal = fields.Date(string='Tanggal', required=True)
     name = fields.Char(string='Materi yang Diajarkan', required=True)
-    pelajaran = fields.Char(related='kurikulum.pelajaran', string='Pelajaran', store=True)
+    pelajaran = fields.Many2one('isa_data.madrasah_pelajaran', related='kurikulum.pelajaran', string='Mata Pelajaran', required=True)
+    # pelajaran = fields.Char(related='kurikulum.pelajaran', string='Pelajaran', store=True)
     kurikulum = fields.Many2one('isa_data.madrasah_kurikulum', string='Kurikulum', required=True, store=True)
     kurikulum_detil = fields.Char(related='kurikulum.detil', string='Kurikulum Detil', store=True)
     keterangan = fields.Text(string='Keterangan')

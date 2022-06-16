@@ -9,7 +9,7 @@
       <field name="arch" type="xml">
         <tree>
           <field name="pelajaran"/>
-          <field name="name"/>
+          <field name="nama"/>
           <field name="detil"/>
           <field name="keterangan"/>
         </tree>
@@ -26,9 +26,9 @@
             <br/>
             <field name="pelajaran"/>
             <br/><br/>
-            <label for="name"/>
+            <label for="nama"/>
             <br/>
-            <field name="name"/>
+            <field name="nama"/>
             <br/><br/>
             <label for="detil"/>
             <br/>
@@ -50,7 +50,7 @@
       <field name="arch" type="xml">
         <search string="Cari DKM">
           <field name="pelajaran"/>
-          <field name="name"/>
+          <field name="nama"/>
           <field name="detil"/>
           <field name="keterangan"/>
         </search>

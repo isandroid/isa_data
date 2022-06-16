@@ -31,6 +31,7 @@
         'views/keuangan_akun.xml',
         'views/keuangan_dkm.xml',
         'views/keuangan_bensin.xml',
+        'views/madrasah_pelajaran.xml',
         'views/madrasah_murid.xml',
         'views/madrasah_absensi.xml',
         'views/madrasah_kurikulum.xml',
