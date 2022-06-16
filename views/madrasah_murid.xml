@@ -65,7 +65,7 @@
     </record>
 
     <menuitem name="Murid" id="isa_data.madrasah_murid_menu" parent="isa_data.madrasah_menu"
-              action="isa_data.madrasah_murid_action_window" sequence="122"/>
+              action="isa_data.madrasah_murid_action_window" sequence="124"/>
 
   </data>
 </odoo>

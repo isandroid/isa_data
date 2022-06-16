@@ -1,0 +1,72 @@
+
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.madrasah_kurikulum_list">
+      <field name="name">Daftar Kurikulum Madrasah</field>
+      <field name="model">isa_data.madrasah_kurikulum</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="pelajaran"/>
+          <field name="name"/>
+          <field name="detil"/>
+          <field name="keterangan"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="isa_data.madrasah_kurikulum_form">
+      <field name="name">Formulir Kurikulum Madrasah</field>
+      <field name="model">isa_data.madrasah_kurikulum</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Kurikulum Madrasah" duplicate="0">
+          <sheet>
+            <label for="pelajaran"/>
+            <br/>
+            <field name="pelajaran"/>
+            <br/><br/>
+            <label for="name"/>
+            <br/>
+            <field name="name"/>
+            <br/><br/>
+            <label for="detil"/>
+            <br/>
+            <field name="detil"/>
+            <br/><br/>
+            <label for="keterangan"/>
+            <br/>
+            <field name="keterangan"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Pencarian -->
+
+    <record id="view_madrasah_kurikulum_search" model="ir.ui.view">
+      <field name="name">Pencarian Kurikulum Madrasah</field>
+      <field name="model">isa_data.madrasah_kurikulum</field>
+      <field name="arch" type="xml">
+        <search string="Cari DKM">
+          <field name="pelajaran"/>
+          <field name="name"/>
+          <field name="detil"/>
+          <field name="keterangan"/>
+        </search>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.madrasah_kurikulum_action_window">
+      <field name="name">Jendela Kurikulum Madrasah</field>
+      <field name="res_model">isa_data.madrasah_kurikulum</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Kurikulum" id="isa_data.madrasah_kurikulum_menu" parent="isa_data.madrasah_menu"
+              action="isa_data.madrasah_kurikulum_action_window" sequence="123"/>
+
+  </data>
+</odoo>

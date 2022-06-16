@@ -11,6 +11,8 @@ from . import keuangan_dkm
 from . import keuangan_bensin
 from . import madrasah_murid
 from . import madrasah_absensi
+from . import madrasah_kurikulum
+from . import madrasah_kbm
 
 # --- Utama ---
 

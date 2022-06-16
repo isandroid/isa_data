@@ -33,6 +33,8 @@
         'views/keuangan_bensin.xml',
         'views/madrasah_murid.xml',
         'views/madrasah_absensi.xml',
+        'views/madrasah_kurikulum.xml',
+        'views/madrasah_kbm.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

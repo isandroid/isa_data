@@ -12,3 +12,7 @@ access_isa_data_kegiatan,isa_data.kegiatan,model_isa_data_kegiatan,base.group_us
 access_isa_data_keuangan_dkm,isa_data.keuangan_dkm,model_isa_data_keuangan_dkm,base.group_user,1,1,1,1
 
 access_isa_data_madrasah_absensi,isa_data.madrasah_absensi,model_isa_data_madrasah_absensi,base.group_user,1,1,1,1
+
+access_isa_data_madrasah_kurikulum,isa_data.madrasah_kurikulum,model_isa_data_madrasah_kurikulum,base.group_user,1,1,1,1
+
+access_isa_data_madrasah_kbm,isa_data.madrasah_kbm,model_isa_data_madrasah_kbm,base.group_user,1,1,1,1
