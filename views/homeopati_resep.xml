@@ -9,7 +9,7 @@
         <tree>
           <field name="penyakit"/>
           <field name="remedi"/>
-          <field name="potensi"/>
+          <field name="resep_huzur"/>
           <field name="keterangan"/>
         </tree>
       </field>
@@ -29,9 +29,9 @@
             <br/>
             <field name="remedi"/>
             <br/><br/>
-            <label for="potensi"/>
+            <label for="resep_huzur"/>
             <br/>
-            <field name="potensi"/>
+            <field name="resep_huzur"/>
             <br/><br/>
             <label for="keterangan"/>
             <br/>
@@ -47,10 +47,10 @@
       <field name="name">Pencarian Resep Homeopati</field>
       <field name="model">isa_data.homeopati_resep</field>
       <field name="arch" type="xml">
-        <search string="Cari Remedi">
+        <search string="Cari Resep">
           <field name="penyakit"/>
           <field name="remedi"/>
-          <field name="potensi"/>
+          <field name="resep_huzur"/>
           <field name="keterangan"/>
         </search>
       </field>
@@ -59,7 +59,7 @@
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="isa_data.homeopati_resep_action_window">
-      <field name="name">Jendela Remedi Homeopati</field>
+      <field name="name">Jendela Resep Homeopati</field>
       <field name="res_model">isa_data.homeopati_resep</field>
       <field name="view_mode">tree,form</field>
     </record>

@@ -8,7 +8,10 @@ class HomeopatiResep(models.Model):
 
     penyakit = fields.Char(string='Penyakit', required=True)
     remedi = fields.Many2many('isa_data.homeopati_remedi', string='Remedi', required=True)
-    potensi = fields.Char(related='remedi.potensi', string='Potensi', store=True)
+    resep_huzur = fields.Selection([
+        ('y', 'Ya'),
+        ('t', 'Tidak'),
+        ], string='Resep Huzur?', default='t')
     keterangan = fields.Text(string='Keterangan')
 
     # def name_get(self):
