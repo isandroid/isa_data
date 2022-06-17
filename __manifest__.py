@@ -36,6 +36,7 @@
         'views/madrasah_absensi.xml',
         'views/madrasah_kurikulum.xml',
         'views/madrasah_kbm.xml',
+        'views/madrasah_nilai.xml',
         'views/homeopati_remedi.xml',
         'views/homeopati_resep.xml',
     ],

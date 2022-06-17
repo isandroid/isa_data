@@ -24,7 +24,7 @@ from . import madrasah_absensi
 from . import madrasah_kurikulum
 from . import madrasah_kbm
 from . import madrasah_pelajaran
-# from . import madrasah_nilai
+from . import madrasah_nilai
 
 # --- Homeopati ---
 

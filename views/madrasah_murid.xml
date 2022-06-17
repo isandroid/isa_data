@@ -64,7 +64,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Remedi" id="isa_data.madrasah_murid_menu" parent="isa_data.madrasah_menu"
+    <menuitem name="Murid" id="isa_data.madrasah_murid_menu" parent="isa_data.madrasah_menu"
               action="isa_data.madrasah_murid_action_window" sequence="128"/>
 
   </data>
