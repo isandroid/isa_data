@@ -39,6 +39,8 @@
         'views/madrasah_nilai.xml',
         'views/homeopati_remedi.xml',
         'views/homeopati_resep.xml',
+        'views/homeopati_pasien.xml',
+        'views/homeopati_pengobatan.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

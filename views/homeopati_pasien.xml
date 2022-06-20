@@ -1,0 +1,78 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_pasien_list">
+      <field name="name">Daftar Pasien</field>
+      <field name="model">isa_data.homeopati_pasien</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="nama"/>
+          <field name="aims"/>
+          <field name="jemaat"/>
+          <field name="alamat"/>
+          <field name="hp"/>
+        </tree>
+      </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="isa_data.homeopati_pasien_form">
+      <field name="name">Formulir Pasien</field>
+      <field name="model">isa_data.homeopati_pasien</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Pasien" duplicate="0">
+          <sheet>
+            <label for="nama"/>
+            <br/>
+            <field name="nama"/>
+            <br/><br/>
+            <label for="aims"/>
+            <br/>
+            <field name="aims"/>
+            <br/><br/>
+            <label for="jemaat"/>
+            <br/>
+            <field name="jemaat"/>
+            <br/><br/>
+            <label for="alamat"/>
+            <br/>
+            <field name="alamat"/>
+            <br/><br/>
+            <label for="hp"/>
+            <br/>
+            <field name="hp"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Pencarian -->
+
+    <record id="view_homeopati_pasien_search" model="ir.ui.view">
+      <field name="name">Pencarian Pasien</field>
+      <field name="model">isa_data.homeopati_pasien</field>
+      <field name="arch" type="xml">
+        <search string="Cari Pasien">
+          <field name="nama"/>
+          <field name="aims"/>
+          <field name="jemaat"/>
+          <field name="alamat"/>
+          <field name="hp"/>
+        </search>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.homeopati_pasien_action_window">
+      <field name="name">Jendela Pasien</field>
+      <field name="res_model">isa_data.homeopati_pasien</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Pasien" id="isa_data.homeopati_pasien_menu" parent="isa_data.homeopati_menu"
+              action="isa_data.homeopati_pasien_action_window" sequence="158"/>
+
+  </data>
+</odoo>

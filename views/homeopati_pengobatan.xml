@@ -1,0 +1,87 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_pengobatan_list">
+      <field name="name">Daftar Pengobatan</field>
+      <field name="model">isa_data.homeopati_pengobatan</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="pasien_nama"/>
+          <field name="pasien_aims"/>
+          <field name="pasien_jemaat"/>
+          <field name="keluhan"/>
+          <field name="remedi"/>
+        </tree>
+      </field>
+    </record>
+
+<!-- 
+
+    pasien_nama = fields.Many2one('isa_data.homeopati_pasien', string='Nama Pasien', required=True)
+    pasien_aims = fields.Integer(related='pasien_nama.aims', string='AIMS', store=True)
+    pasien_jemaat = fields.Many2one(related='pasien_nama.jemaat', string='Jemaat', store=True)
+    keluhan = fields.Text(string='Keluhan', required=True)
+    remedi = fields.Many2many('isa_data.remedi', string='Remedi', required=True)
+
+ -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_pengobatan_form">
+      <field name="name">Formulir Pengobatan</field>
+      <field name="model">isa_data.homeopati_pengobatan</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Pengobatan" duplicate="0">
+          <sheet>
+            <label for="pasien_nama"/>
+            <br/>
+            <field name="pasien_nama"/>
+            <br/><br/>
+            <label for="pasien_aims"/>
+            <br/>
+            <field name="pasien_aims"/>
+            <br/><br/>
+            <label for="pasien_jemaat"/>
+            <br/>
+            <field name="pasien_jemaat"/>
+            <br/><br/>
+            <label for="keluhan"/>
+            <br/>
+            <field name="keluhan"/>
+            <br/><br/>
+            <label for="remedi"/>
+            <br/>
+            <field name="remedi"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Pencarian -->
+
+    <record id="view_homeopati_pengobatan_search" model="ir.ui.view">
+      <field name="name">Pencarian Pengobatan</field>
+      <field name="model">isa_data.homeopati_pengobatan</field>
+      <field name="arch" type="xml">
+        <search string="Cari Pengobatan">
+          <field name="pasien_nama"/>
+          <field name="pasien_aims"/>
+          <field name="pasien_jemaat"/>
+          <field name="keluhan"/>
+          <field name="remedi"/>
+        </search>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.homeopati_pengobatan_action_window">
+      <field name="name">Jendela Pengobatan</field>
+      <field name="res_model">isa_data.homeopati_pengobatan</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Pengobatan" id="isa_data.homeopati_pengobatan_menu" parent="isa_data.homeopati_menu"
+              action="isa_data.homeopati_pengobatan_action_window" sequence="152"/>
+
+  </data>
+</odoo>
