@@ -13,4 +13,4 @@ class HomeopatiPasien(models.Model):
     hp = fields.Char(string='Nomor HP')
 
     def name_get(self):
-        return self.mapped(lambda it: (it.id, f"{it.nama} - {it.jemaat}"))
+        return self.mapped(lambda it: (it.id, f"{it.nama} - {it.aims}"))
