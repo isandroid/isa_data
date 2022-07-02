@@ -41,6 +41,7 @@
         'views/homeopati_resep.xml',
         'views/homeopati_pasien.xml',
         'views/homeopati_pengobatan.xml',
+        'laporan/report_kegiatan_bulanan.xml',
     ],
     # only loaded in demonstration mode
     # 'demo': [

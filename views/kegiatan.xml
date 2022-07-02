@@ -6,7 +6,7 @@
       <field name="name">Daftar Kegiatan</field>
       <field name="model">isa_data.kegiatan</field>
       <field name="arch" type="xml">
-        <tree>
+        <tree default_order="tanggal desc">
           <field name="tanggal"/>
           <field name="name"/>
           <field name="jemaat"/>
