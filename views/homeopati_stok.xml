@@ -1,0 +1,86 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_stok_list">
+      <field name="name">Daftar Stok Remedi</field>
+      <field name="model">isa_data.homeopati_stok</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="tanggal"/>
+          <field name="remedi"/>
+          <field name="potensi"/>
+          <field name="kondisi"/>
+          <field name="keterangan"/>
+        </tree>
+      </field>
+    </record>
+
+<!-- 
+    tanggal = fields.Date(string='Tanggal', required=True)
+    remedi = fields.Many2one('isa_data.homeopati_remedi', string='Remedi', required=True)
+    potensi = fields.Char(related='remedi.potensi', string='Potensi', store=True)
+    kondisi = fields.Integer(string='Prosentase Isi')
+    keterangan = fields.Text(string='Keterangan')
+
+ -->
+
+    <record model="ir.ui.view" id="isa_data.homeopati_stok_form">
+      <field name="name">Formulir Stok Remedi</field>
+      <field name="model">isa_data.homeopati_stok</field>
+      <field name="arch" type="xml">
+        <form string="Formulir Stok Remedi" duplicate="0">
+          <sheet>
+            <label for="tanggal"/>
+            <br/>
+            <field name="tanggal"/>
+            <br/><br/>
+            <label for="remedi"/>
+            <br/>
+            <field name="remedi"/>
+            <br/><br/>
+            <label for="potensi"/>
+            <br/>
+            <field name="potensi"/>
+            <br/><br/>
+            <label for="kondisi"/>
+            <br/>
+            <field name="kondisi"/>
+            <br/><br/>
+            <label for="keterangan"/>
+            <br/>
+            <field name="keterangan"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- Pencarian -->
+
+    <record id="view_homeopati_stok_search" model="ir.ui.view">
+      <field name="name">Pencarian Stok Remedi</field>
+      <field name="model">isa_data.homeopati_stok</field>
+      <field name="arch" type="xml">
+        <search string="Cari Stok Remedi">
+          <field name="tanggal"/>
+          <field name="remedi"/>
+          <field name="potensi"/>
+          <field name="kondisi"/>
+          <field name="keterangan"/>
+        </search>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="isa_data.homeopati_stok_action_window">
+      <field name="name">Jendela Stok Remedi</field>
+      <field name="res_model">isa_data.homeopati_stok</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Stok" id="isa_data.homeopati_stok_menu" parent="isa_data.homeopati_menu"
+              action="isa_data.homeopati_stok_action_window" sequence="153"/>
+
+  </data>
+</odoo>

@@ -32,3 +32,4 @@ from . import homeopati_remedi
 from . import homeopati_resep
 from . import homeopati_pasien
 from . import homeopati_pengobatan
+from . import homeopati_stok
