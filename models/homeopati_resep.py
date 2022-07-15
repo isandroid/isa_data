@@ -7,11 +7,12 @@ class HomeopatiResep(models.Model):
     _description = 'Data Resep Homeopati'
 
     penyakit = fields.Char(string='Penyakit', required=True)
-    remedi = fields.Many2many('isa_data.homeopati_remedi', string='Remedi', required=True)
-    resep_huzur = fields.Selection([
-        ('y', 'Ya'),
-        ('t', 'Tidak'),
-        ], string='Resep Huzur?', default='t')
+    remedi = fields.Many2one('isa_data.homeopati_remedi', string='Remedi', required=True)
+    sumber = fields.Selection([
+        ('resep-huzur', 'Resep Huzur'),
+        ('materia-medica', 'Materia Medica'),
+        ('dhn', 'Departemen Homeopati Nasional'),
+        ], string='Referensi', default='dhn')
     keterangan = fields.Text(string='Keterangan')
 
     # def name_get(self):

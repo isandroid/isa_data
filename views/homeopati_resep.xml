@@ -9,7 +9,7 @@
         <tree>
           <field name="penyakit"/>
           <field name="remedi"/>
-          <field name="resep_huzur"/>
+          <field name="sumber"/>
           <field name="keterangan"/>
         </tree>
       </field>
@@ -29,9 +29,9 @@
             <br/>
             <field name="remedi"/>
             <br/><br/>
-            <label for="resep_huzur"/>
+            <label for="sumber"/>
             <br/>
-            <field name="resep_huzur"/>
+            <field name="sumber"/>
             <br/><br/>
             <label for="keterangan"/>
             <br/>
@@ -50,7 +50,7 @@
         <search string="Cari Resep">
           <field name="penyakit"/>
           <field name="remedi"/>
-          <field name="resep_huzur"/>
+          <field name="sumber"/>
           <field name="keterangan"/>
         </search>
       </field>
